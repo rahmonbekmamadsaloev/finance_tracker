@@ -1,6 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
-from accounts.models import CustomUser
+from account.models import CustomUser
 class Transaction(models.Model):
     TRANSACTION_CHOICES = [
         ('INCOME', 'income'),
